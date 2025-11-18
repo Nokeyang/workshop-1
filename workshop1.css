@@ -92,3 +92,40 @@ nav{
 display: flex;
 
 }
+
+button:hover {
+  background: #444;
+}
+
+header a {
+  text-decoration: none;
+  color: black;
+}
+@media (max-width: 600px) {
+
+  header {
+    flex-direction: column;
+    gap: 15px;
+    padding: 20px;
+    text-align: center;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  img {
+    width: 100%;   
+  }
+
+  div {
+    padding: 20px;
+  }
+
+  form {
+    width: 100%;
+    padding: 0 10px;
+  }
+}
+
